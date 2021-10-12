@@ -1,0 +1,25 @@
+{
+  "name": "קריאת זן בעיתון הארץ",
+  "version": "1.0.2",
+  "manifest_version": 2,
+  "description": "הפעל קריאת זן באופן אוטומטי באתר עיתון הארץ",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.haaretz.co.il/*",
+        "https://www.themarker.com/*"
+      ],
+      "js": [
+        "inject.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "script.js"
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
+
+
