@@ -1,9 +1,5 @@
-window.onload = function() {
-    elements = document.querySelectorAll('span');
-    Array.prototype.filter.call(elements, function(element) {
-        if (element.textContent == 'קריאת זן') {
-            element.click();
-        }
-    });
-};
-
+Array.prototype.filter.call(document.querySelectorAll('span'), function(element) {
+    if (element.textContent == 'קריאת זן') {
+        element.click();
+    }
+});
