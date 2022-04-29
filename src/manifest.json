@@ -1,6 +1,6 @@
 {
   "name": "קריאת זן בעיתון הארץ",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "manifest_version": 3,
   "description": "הפעל קריאת זן באופן אוטומטי באתר עיתון הארץ",
   "content_scripts": [
@@ -16,5 +16,3 @@
     }
   ]
 }
-
-
